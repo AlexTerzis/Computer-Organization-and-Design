@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Lab_User_Temp/HRY203/lab1/DEC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="dec_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/dec_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/alu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/immext" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immext[1:0]</obj_property>
+      <obj_property name="ObjectShortName">immext[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rf_b_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider14" type="divider">
+      <obj_property name="label">outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rf_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_a[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/rf_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_b[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dec_tb/immed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+</wave_config>
