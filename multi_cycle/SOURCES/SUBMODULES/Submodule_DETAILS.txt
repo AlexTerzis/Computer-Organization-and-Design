@@ -1,0 +1,4 @@
+To neo DEC_STAGE_ pipeline kai t IF_Stage_Pipeline exoun mia epipleon porta(Instr_WB,PC_IN andistoixa ) oste na adistoixei stin timh pou eixe o PC otan 
+egine fetch h endolh branch oste na gnorizoume ton kataxorhth ths endolhs pou vrisketai ston WRITE BACK.
+
+To HAZARD_CONTROL elegxei gia ola ta hazards an tha ginei stall forwarding
